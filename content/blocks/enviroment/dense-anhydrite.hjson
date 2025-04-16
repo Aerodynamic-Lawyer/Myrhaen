@@ -1,3 +1,4 @@
 type: floor
 name: Dense anhydrite
+blendGroup: "anhydrite-dent"
 variants: 4
