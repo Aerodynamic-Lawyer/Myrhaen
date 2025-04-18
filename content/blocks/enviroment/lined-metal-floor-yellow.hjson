@@ -1,0 +1,4 @@
+type: floor
+name: Yellow lined metal floor
+blendGroup: "lined-metal-floor"
+variants: 5
