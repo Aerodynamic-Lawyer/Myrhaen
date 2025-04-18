@@ -1,0 +1,4 @@
+type: floor
+name: Lined metal floor
+blendGroup: "lined-metal-floor-white"
+variants: 5
