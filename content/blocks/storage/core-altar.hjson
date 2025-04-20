@@ -1,4 +1,4 @@
-type: coreblock
+type: CoreBlock
 name: Core: Altar
 description: "The most essential part of any base, if it happens to be destroyed, communication is lost, and so is the sector."
 requirements: [
