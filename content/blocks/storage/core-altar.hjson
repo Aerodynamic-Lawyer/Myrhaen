@@ -1,0 +1,14 @@
+type: coreblock
+name: Core: Altar
+description: "The most essential part of any base, if it happens to be destroyed, communication is lost, and so is the sector."
+requirements: [
+ sand/1
+]
+isFirstTier: true
+size: 4
+squareSprite: false
+alwaysUnlocked: true
+health: 1790
+itemCapacity: 2500
+unitCapModifier: 10
+category: effect
