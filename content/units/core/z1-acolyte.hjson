@@ -28,6 +28,7 @@ weapons:[
     shoot: {
       shots: 1
       shotDelay: 0
+    {
     bullet : {
         hitEffect: blastExplosion
         sprite: "cross-2"
