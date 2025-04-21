@@ -69,6 +69,7 @@ weapons:[
             trailWidth: 1.2
             trailLength: 10
             backColor: b0e14e
+           }
         }
-    }
- ]
+     }
+  ]
