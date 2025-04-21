@@ -31,6 +31,7 @@ weapons:[
     {
     bullet : {
         hitEffect: blastExplosion
+        spin: 30
         sprite: "cross-2"
         keepVelocity: false
         lifetime: 55
