@@ -5,7 +5,7 @@ itemCapacity : 65
 rotateSpeed : 25
 engineSize : 2
 flying : true
-hitSize : 28
+hitSize : 18
 health : 645
 speed : 3.15
 accel : 0.2
