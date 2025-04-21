@@ -37,7 +37,7 @@ weapons:[
         name: acolyte-weapon
         hitEffect: blastExplosion
         spin: 30
-        sprite: "cross-2"
+        sprite: "myrhaen-cross-2"
         keepVelocity: false
         lifetime: 55
         drag: -0.02
@@ -59,19 +59,20 @@ weapons:[
         fragBullet: {
             type: BasicBulletType
             homingPower: 1.77
-            homingDelay: 20
-            speed: 6.5
-            width: 10
-            height: 10
+            homingDelay: 10
+            speed: 2.5
+            width: 20
+            height: 20
             splashDamage: 30
             splashDamageRadius: 5
             healPercent: 2.5
-            lifetime: 33
+            lifetime: 40
             drag: 0.04
             sprite: "myrhaen-cross-1"
             frontColor: deed8f
             trailWidth: 1.2
             trailLength: 10
+            trailColor: b0e14e
             backColor: b0e14e
            }
         }
