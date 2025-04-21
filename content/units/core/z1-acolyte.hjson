@@ -58,6 +58,7 @@ weapons:[
         fragBullets: 2
         fragBullet: {
             type: BasicBulletType
+            collidesTeam: true
             homingPower: 1.77
             homingDelay: 5
             speed: 5.5
