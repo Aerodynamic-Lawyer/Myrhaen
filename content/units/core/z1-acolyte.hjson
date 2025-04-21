@@ -36,7 +36,7 @@ weapons:[
     bullet : {
         name: acolyte-weapon
         hitEffect: blastExplosion
-        spin: 30
+        spin: 5
         sprite: "myrhaen-cross-2"
         keepVelocity: false
         lifetime: 55
@@ -63,7 +63,8 @@ weapons:[
             speed: 5.5
             width: 20
             height: 20
-            Damage: 30
+            splashDamage: 30
+            splashDamageRadius: 1
             healPercent: 2.5
             lifetime: 40
             drag: 0
