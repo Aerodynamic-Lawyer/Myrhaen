@@ -1,0 +1,71 @@
+useEngineElevation : false
+shadowElevation : 0.38
+engineOffset : -1.75
+itemCapacity : 65
+rotateSpeed : 25
+engineSize : 2
+flying : true
+hitSize : 28
+health : 645
+speed : 3.15
+accel : 0.2
+armor : 2
+name : Acolyte
+type : flying
+drag : 0.05
+outlineColor: 1d161e
+alwaysUnlocked: true
+weapons:[
+ {
+    x: 0
+    y: 4.1
+    reload: 42
+    mirror: false
+    alternate: false
+    rotate: false
+    ejectEffect: casing2
+    shootSound: shoot-dull
+    shoot: {
+      shots: 1
+      shotDelay: 0
+    bullet : {
+        hitEffect: blastExplosion
+        sprite: "cross-2"
+        keepVelocity: false
+        lifetime: 55
+        drag: -0.02
+        damage: 70
+        healPercent: 5
+        height: 10
+        speed: 2
+        width: 10
+        type: BasicBulletType
+        homingPower: 0.00
+        homingDelay: 0
+        frontColor: deed8f
+        backColor: b0e14e
+        trailColor: b0e14e
+        trailWidth: 2.2
+        trailLength: 12
+        fragMinLife: 1
+        fragBullets: 2
+        fragBullet: {
+            type: BasicBulletType
+            homingPower: 1.77
+            homingDelay: 20
+            speed: 2.5
+            width: 10
+            height: 10
+            splashDamage: 30
+            splashDamageRadius: 40
+            healPercent: 2.5
+            lifetime: 33
+            drag: 0.04
+            sprite: "cross-1"
+            frontColor: deed8f
+            trailWidth: 1.2
+            trailLength: 10
+            backColor: b0e14e
+        }
+    }
+ ]
