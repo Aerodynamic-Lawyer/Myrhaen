@@ -28,8 +28,9 @@ weapons:[
     shoot: {
       shots: 1
       shotDelay: 0
-    {
+    }
     bullet : {
+        name: acolyte-weapon
         hitEffect: blastExplosion
         spin: 30
         sprite: "cross-2"
