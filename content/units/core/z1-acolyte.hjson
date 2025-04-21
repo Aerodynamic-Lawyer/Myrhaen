@@ -43,9 +43,9 @@ weapons:[
         drag: -0.02
         damage: 70
         healPercent: 5
-        height: 10
+        height: 20
         speed: 2
-        width: 10
+        width: 20
         type: ArtilleryBulletType
         homingPower: 0.00
         homingDelay: 0
@@ -59,18 +59,17 @@ weapons:[
         fragBullet: {
             type: BasicBulletType
             homingPower: 1.77
-            homingDelay: 10
-            speed: 4.5
+            homingDelay: 5
+            speed: 5.5
             width: 20
             height: 20
-            splashDamage: 30
-            splashDamageRadius: 5
+            Damage: 30
             healPercent: 2.5
             lifetime: 40
-            drag: 0.04
+            drag: 0
             sprite: "myrhaen-cross-1"
             frontColor: deed8f
-            trailWidth: 1.2
+            trailWidth: 2.2
             trailLength: 10
             trailColor: b0e14e
             backColor: b0e14e
