@@ -56,15 +56,15 @@ weapons:[
             type: BasicBulletType
             homingPower: 1.77
             homingDelay: 20
-            speed: 2.5
+            speed: 6.5
             width: 10
             height: 10
             splashDamage: 30
-            splashDamageRadius: 40
+            splashDamageRadius: 5
             healPercent: 2.5
             lifetime: 33
             drag: 0.04
-            sprite: "cross-1"
+            sprite: "myrhaen-cross-1"
             frontColor: deed8f
             trailWidth: 1.2
             trailLength: 10
