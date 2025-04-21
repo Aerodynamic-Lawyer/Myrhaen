@@ -37,11 +37,13 @@ weapons:[
         name: acolyte-weapon
         hitEffect: blastExplosion
         spin: 5
+        collidesTeam: true
         sprite: "myrhaen-cross-2"
         keepVelocity: false
         lifetime: 55
         drag: -0.02
-        damage: 70
+        splashDamage: 70
+        splashDamageRadius: 2
         healPercent: 5
         height: 20
         speed: 2
