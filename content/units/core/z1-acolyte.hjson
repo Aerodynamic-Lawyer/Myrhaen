@@ -15,6 +15,10 @@ type : flying
 drag : 0.05
 outlineColor: 1d161e
 alwaysUnlocked: true
+isEnemy: false
+mineSpeed: 3.5
+mineTier: 2
+buildSpeed: 1
 weapons:[
  {
     x: 0
@@ -42,7 +46,7 @@ weapons:[
         height: 10
         speed: 2
         width: 10
-        type: BasicBulletType
+        type: ArtilleryBulletType
         homingPower: 0.00
         homingDelay: 0
         frontColor: deed8f
