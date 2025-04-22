@@ -3,7 +3,7 @@ shadowElevation : 0.38
 engineOffset : -1.75
 itemCapacity : 65
 rotateSpeed : 25
-engineSize : 2
+engineSize : 0
 flying : true
 hitSize : 18
 health : 645
@@ -20,12 +20,22 @@ mineSpeed: 3.5
 mineTier: 2
 buildSpeed: 1
 
+parts: [
+    {
+        type: HoverPart
+        radius: 8.5
+        stroke: 2
+        phase: 85
+        layerOffset: -0.001
+        color: cddbc5
+    }
+
 abilities: [
         {
         effect:{
         type: ParticleEffect 
-        colorFrom: deed8f
-        colorTo: b0e14e
+        colorFrom: ffffff
+        colorTo: cddbc5
         particles: 1
         cone: 360
         length: 0
@@ -33,14 +43,14 @@ abilities: [
         lightScl: 2
         lightOpacity: 2
         spin: 0
-        sizeFrom: 2
+        sizeFrom: 3
         sizeTo: 0 
         offset: 0
         }
         type : MoveEffectAbility
         minVelocity: 0
         interval: 0.00000001
-        y : -3
+        y : -1
         x : 0
     }
 ]
