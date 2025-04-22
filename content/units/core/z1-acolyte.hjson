@@ -27,15 +27,15 @@ parts: [
         stroke: 4
         phase: 85
         layerOffset: -0.001
-        color: cddbc5
+        color: b0a483
     }
 ]
 abilities: [
         {
         effect:{
         type: ParticleEffect 
-        colorFrom: ffffff
-        colorTo: cddbc5
+        colorFrom: dbd7c5
+        colorTo: b0a483
         particles: 1
         cone: 360
         length: 0
@@ -86,9 +86,9 @@ weapons:[
         type: ArtilleryBulletType
         homingPower: 0.00
         homingDelay: 0
-        frontColor: b0e14e
-        backColor: 86b083
-        trailColor: 86b083
+        frontColor: dbd7c5
+        backColor: b0a483
+        trailColor: b0a483
         trailWidth: 2.2
         trailLength: 12
         fragMinLife: 1
@@ -107,11 +107,11 @@ weapons:[
             lifetime: 40
             drag: 0
             sprite: "myrhaen-cross-1"
-            frontColor: cddbc5
+            frontColor: dbd7c5
             trailWidth: 2.2
             trailLength: 10
-            trailColor: 86b083
-            backColor: 86b083
+            trailColor: b0a483
+            backColor: b0a483
            }
         }
      }
