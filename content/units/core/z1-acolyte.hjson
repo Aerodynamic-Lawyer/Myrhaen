@@ -27,7 +27,7 @@ parts: [
         stroke: 4
         phase: 85
         layerOffset: -0.001
-        color: b0a483
+        color: f3e584
     }
 ]
 abilities: [
