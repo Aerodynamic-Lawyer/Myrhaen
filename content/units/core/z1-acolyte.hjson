@@ -5,7 +5,6 @@ itemCapacity : 65
 rotateSpeed : 25
 engineSize : 0
 flying : true
-hovering: true
 hitSize : 18
 health : 645
 speed : 3.1
