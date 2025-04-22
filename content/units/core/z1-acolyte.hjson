@@ -12,6 +12,7 @@ accel : 0.2
 armor : 2
 name : Acolyte
 type : flying
+description: "builds sructures to defend the core: Altar, equipped with the ability to shoot a single, fragmentary bullet, frags accelerate towards targets, can heal allied buildings and structures."
 drag : 0.05
 outlineColor: 1d161e
 alwaysUnlocked: true
@@ -92,6 +93,7 @@ weapons:[
         trailLength: 12
         fragMinLife: 1
         fragBullets: 2
+        fragOnHit: false
         fragBullet: {
             type: BasicBulletType
             collidesTeam: true
