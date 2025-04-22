@@ -78,7 +78,7 @@ weapons:[
         lifetime: 55
         drag: -0.02
         splashDamage: 80
-        splashDamageRadius: 2
+        splashDamageRadius: 16
         healPercent: 6
         height: 15
         speed: 2
@@ -102,7 +102,7 @@ weapons:[
             width: 20
             height: 20
             splashDamage: 35
-            splashDamageRadius: 1
+            splashDamageRadius: 16
             healPercent: 3
             lifetime: 40
             drag: 0
