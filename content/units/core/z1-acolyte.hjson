@@ -23,8 +23,8 @@ buildSpeed: 1
 parts: [
     {
         type: HoverPart
-        radius: 8.5
-        stroke: 2
+        radius: 9.5
+        stroke: 4
         phase: 85
         layerOffset: -0.001
         color: cddbc5
@@ -86,9 +86,9 @@ weapons:[
         type: ArtilleryBulletType
         homingPower: 0.00
         homingDelay: 0
-        frontColor: deed8f
-        backColor: b0e14e
-        trailColor: b0e14e
+        frontColor: b0e14e
+        backColor: 86b083
+        trailColor: 86b083
         trailWidth: 2.2
         trailLength: 12
         fragMinLife: 1
@@ -107,11 +107,11 @@ weapons:[
             lifetime: 40
             drag: 0
             sprite: "myrhaen-cross-1"
-            frontColor: deed8f
+            frontColor: cddbc5
             trailWidth: 2.2
             trailLength: 10
-            trailColor: b0e14e
-            backColor: b0e14e
+            trailColor: 86b083
+            backColor: 86b083
            }
         }
      }
