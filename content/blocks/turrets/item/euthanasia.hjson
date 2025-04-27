@@ -63,7 +63,7 @@ drawer: {
     heatColor: dfc8cc
     type: RegionPart
     progress: warmup
-    moveY: 4
+    moveY: 4.25
     mirror: false
     moves: [ 
       {
@@ -80,7 +80,7 @@ drawer: {
     heatColor: dfc8cc
     type: RegionPart
     progress: warmup
-    moveY: 3.5
+    moveY: 4
     moveX: 2
     moveRot: 6
     mirror: true
