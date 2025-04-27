@@ -9,9 +9,6 @@ shootSound: artillery
 requirements: [
 sand/1
 ]
-consumes: {
-  nitrogen/0.15
-}
 coolant: {
   type: ConsumeCoolant
   allowGas: true
