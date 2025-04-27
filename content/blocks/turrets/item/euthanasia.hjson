@@ -6,6 +6,9 @@ squareSprite: false
 category: turret
 researchCostMultiplier: 2
 shootSound: artillery
+consumes: {
+  liquid: nitrogen/0.15
+}
 requirements: [
 sand/1
 ]
