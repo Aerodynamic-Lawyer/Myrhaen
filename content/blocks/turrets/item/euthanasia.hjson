@@ -52,7 +52,6 @@ drawer: {
     type: RegionPart
     progress: warmup
     moveY: 2
-    layer: 5.01
     mirror: false
     }
   ]
