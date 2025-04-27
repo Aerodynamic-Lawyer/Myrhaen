@@ -63,8 +63,14 @@ drawer: {
     heatColor: dfc8cc
     type: RegionPart
     progress: warmup
-    moveY: 3.5
+    moveY: 4.5
     mirror: false
+    moves: [ 
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -2 //has same possible parameters as part
+      }
     }
   ]
 }
