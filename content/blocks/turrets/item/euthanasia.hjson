@@ -43,8 +43,10 @@ ammoTypes: {
     trailLength: 8
   }
 }
-parts: [
-  {
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
     suffix: "back"
     type: RegionPart
     progress: warmup
@@ -52,5 +54,6 @@ parts: [
     layer: 49
     mirror: true
     turretShading: true
-   }
-]
+    }
+  ]
+}
