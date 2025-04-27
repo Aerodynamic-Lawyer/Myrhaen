@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Euthanasia
+description: "Fires piercing needles coated with dangerous substances, requires nitrogen to function."
+size: 6
+squareSprite: false
+category: turret
+researchCostMultiplier: 2
+shootSound: artillery
+requirements: [
+sand/1
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 2
+}
+outlineColor: 1d161e
+targetAir: true
+targetGround: true
+reload: 68
+range: 185
+velocityRnd: 0.12
+inaccuracy: 0
+shoot: {
+  shots: 1
+}
+ammoTypes: {
+  tungsten: {
+    type: BasicBulletType
+    damage: 28
+    width: 7
+    height: 9
+    speed: 5
+    lifetime: 35
+    knockback: 10
+    pierce: true
+    pierceCap: 2
+    frontColor: f9c8c8
+    backColor: c87982
+    trailColor: c87982
+    trailWidth: 2
+    trailLength: 8
+  }
+}
