@@ -22,6 +22,7 @@ reload: 68
 range: 185
 velocityRnd: 0.12
 inaccuracy: 0
+heatColor: f6e3dd
 shoot: {
   shots: 1
 }
@@ -49,6 +50,7 @@ drawer: {
     {
     suffix: "-back"
     under: false
+    heatColor: f6e3dd
     type: RegionPart
     progress: warmup
     moveY: 2
