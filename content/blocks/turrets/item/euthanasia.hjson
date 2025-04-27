@@ -82,7 +82,7 @@ drawer: {
     progress: warmup
     moveY: 3.75
     moveX: 2.25
-    moverot: 8
+    moveRot: 5
     mirror: true
     moves: [ 
       {
