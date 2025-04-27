@@ -71,6 +71,7 @@ drawer: {
         progress: recoil
         moveY: -2 //has same possible parameters as part
       }
+    ]
     }
   ]
 }
