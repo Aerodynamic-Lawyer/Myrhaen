@@ -43,8 +43,6 @@ ammoTypes: {
     trailLength: 8
   }
 }
-parts: [
- {
    parts: [
   {
     suffix: "back"
