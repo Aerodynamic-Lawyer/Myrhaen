@@ -58,7 +58,8 @@ drawer: {
     }
     {
     suffix: "-barrel-center"
-    under: false
+    under: true
+    layer: 49.01
     heatColor: dfc8cc
     type: RegionPart
     progress: warmup
