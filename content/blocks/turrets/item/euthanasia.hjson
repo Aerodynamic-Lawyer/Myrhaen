@@ -52,8 +52,7 @@ drawer: {
     progress: warmup
     moveY: 2
     layer: 51
-    mirror: true
-    turretShading: true
+    mirror: false
     }
   ]
 }
