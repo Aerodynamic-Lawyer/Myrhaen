@@ -22,7 +22,7 @@ reload: 68
 range: 185
 velocityRnd: 0.12
 inaccuracy: 0
-heatColor: f6e3dd
+heatColor: dfc8cc
 shoot: {
   shots: 1
 }
@@ -50,10 +50,19 @@ drawer: {
     {
     suffix: "-back"
     under: false
-    heatColor: f6e3dd
+    heatColor: dfc8cc
     type: RegionPart
     progress: warmup
     moveY: 2
+    mirror: false
+    }
+    {
+    suffix: "-barrel-center"
+    under: false
+    heatColor: dfc8cc
+    type: RegionPart
+    progress: warmup
+    moveY: 3.5
     mirror: false
     }
   ]
