@@ -95,5 +95,24 @@ drawer: {
       }
     ]
     }
+    {
+    suffix: "-barrel-outer"
+    under: true
+    layer: 49.01
+    heatColor: dfc8cc
+    type: RegionPart
+    progress: warmup
+    moveY: 3.75
+    moveX: 1.25
+    moveRot: 5
+    mirror: true
+    moves: [ 
+      {
+        type: PartMove
+        progress: recoil
+        moveY: -2
+      }
+    ]
+    }
   ]
 }
