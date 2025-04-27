@@ -85,7 +85,7 @@ drawer: {
     progress: warmup
     moveY: 4
     moveX: 1.5
-    moveRot: 6
+    moveRot: 5
     mirror: true
     moves: [ 
       {
@@ -104,7 +104,7 @@ drawer: {
     progress: warmup
     moveY: 3.75
     moveX: 1.25
-    moveRot: 5
+    moveRot: 6
     mirror: true
     moves: [ 
       {
