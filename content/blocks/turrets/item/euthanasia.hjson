@@ -48,13 +48,8 @@ parts: [
     suffix: "back"
     type: RegionPart
     progress: warmup
-    x: 
-    y: 
-    rot:
-    moveX:
     moveY: 2
-    moveRot:
-    layerOffset: 0.01
+    layer: 49
     mirror: true
     turretShading: true
    }
