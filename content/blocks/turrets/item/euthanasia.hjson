@@ -114,5 +114,16 @@ drawer: {
       }
     ]
     }
+    {
+    suffix: "-front"
+    under: false
+    heatColor: dfc8cc
+    type: RegionPart
+    progress: warmup
+    moveY: 5
+    moveX: 2
+    moveRot: 10
+    mirror: true
+    }
   ]
 }
