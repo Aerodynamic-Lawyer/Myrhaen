@@ -9,6 +9,9 @@ shootSound: artillery
 requirements: [
 sand/1
 ]
+consumes: {
+  nitrogen/0.15
+}
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -43,3 +46,21 @@ ammoTypes: {
     trailLength: 8
   }
 }
+parts: [
+ {
+   parts: [
+  {
+    suffix: "back"
+    type: RegionPart
+    progress: warmup
+    x: 
+    y: 
+    rot:
+    moveX:
+    moveY: 2
+    moveRot:
+    layerOffset: 0.01
+    mirror: true
+    turretShading: true
+   }
+]
