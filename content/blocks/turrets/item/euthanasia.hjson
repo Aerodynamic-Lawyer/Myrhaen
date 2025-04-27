@@ -84,7 +84,7 @@ drawer: {
     type: RegionPart
     progress: warmup
     moveY: 4
-    moveX: 2
+    moveX: 1.5
     moveRot: 6
     mirror: true
     moves: [ 
