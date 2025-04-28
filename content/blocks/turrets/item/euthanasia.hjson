@@ -151,5 +151,16 @@ drawer: {
     moveRot: 34
     mirror: true
     }
+    {
+    suffix: "-side"
+    under: false
+    heatColor: dfc8cc
+    type: RegionPart
+    progress: warmup
+    moveY: -4
+    moveX: 1
+    moveRot: -15
+    mirror: true
+    }
   ]
 }
