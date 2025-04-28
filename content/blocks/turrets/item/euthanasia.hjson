@@ -143,7 +143,7 @@ drawer: {
     under: true
     layer: 49.0003
     heatLayer: 49.0004
-    heatColor: dfc8cc
+    heatColor: caa2a6
     type: RegionPart
     progress: warmup
     moveY: 5.25
