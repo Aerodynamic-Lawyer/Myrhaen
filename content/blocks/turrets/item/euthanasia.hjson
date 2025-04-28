@@ -138,5 +138,18 @@ drawer: {
     moveRot: 65
     mirror: true
     }
+    {
+    suffix: "-claw"
+    under: true
+    layer: 49.0003
+    heatLayer: 49.0004
+    heatColor: dfc8cc
+    type: RegionPart
+    progress: warmup
+    moveY: 5.5
+    moveX: 14
+    moveRot: 44
+    mirror: true
+    }
   ]
 }
