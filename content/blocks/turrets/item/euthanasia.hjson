@@ -157,9 +157,9 @@ drawer: {
     heatColor: dfc8cc
     type: RegionPart
     progress: warmup
-    moveY: -3
+    moveY: 2
     moveX: 1.25
-    moveRot: 15
+    moveRot: 84
     mirror: true
     }
   ]
