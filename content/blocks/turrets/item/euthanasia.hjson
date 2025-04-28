@@ -129,11 +129,12 @@ drawer: {
     suffix: "-claw"
     under: true
     layer: 49.0005
+    heatLayer: 49.0006
     heatColor: dfc8cc
     type: RegionPart
     progress: warmup
-    moveY: 6
-    moveX: 12
+    moveY: 5.5
+    moveX: 13
     moveRot: 76
     mirror: true
     }
