@@ -10,7 +10,8 @@ health : 560
 speed : 1.2
 accel : 0.1
 armor : 5
-name : Instant
+name : Gale
+description: "shoots small artillery pellets at enemies over medium distances, can hover over liquids"
 type : hover
 drag : 0.07
 outlineColor: 2b2a3a
@@ -18,10 +19,44 @@ outlineColor: 2b2a3a
 parts: [
     {
         type: HoverPart
-        radius: 11
-        stroke: 2
+        radius: 13
+        stroke: 4
         phase: 90
         layerOffset: -0.001
-        color: e78721
+        color: ffbc34
     }
+]
+
+weapons:[
+ {
+    x: 0
+    y: -2
+    name: gale-weapon
+    reload: 90
+    mirror: false
+    alternate: false
+    rotate: true
+    ejectEffect: casing2
+    shootSound: shoot-dull
+    shoot: {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet : {
+        hitEffect: blastExplosion
+        collidesTeam: false
+        keepVelocity: false
+        lifetime: 85
+        damage: 75
+        height: 4
+        speed: 1.25
+        width: 4
+        type: ArtilleryBulletType
+        frontColor: ffdf79
+        backColor: ffbc34
+        trailColor: ffbc34
+        trailWidth: 1.2
+        trailLength: 6
+    }
+  }
 ]
