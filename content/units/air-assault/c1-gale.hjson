@@ -31,7 +31,7 @@ weapons:[
  {
     x: 0
     y: -2
-    name: gale-weapon
+    name: c1-gale-weapon
     reload: 90
     mirror: false
     alternate: false
