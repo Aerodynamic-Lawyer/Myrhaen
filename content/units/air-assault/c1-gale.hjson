@@ -1,0 +1,27 @@
+useEngineElevation : false
+shadowElevation : 0.2
+engineOffset : -1.75
+itemCapacity : 35
+rotateSpeed : 6
+engineSize : 0
+hovering : true
+hitSize : 11
+health : 560
+speed : 1.2
+accel : 0.1
+armor : 5
+name : Instant
+type : hover
+drag : 0.07
+outlineColor: 2b2a3a
+
+parts: [
+    {
+        type: HoverPart
+        radius: 11
+        stroke: 2
+        phase: 90
+        layerOffset: -0.001
+        color: e78721
+    }
+]
