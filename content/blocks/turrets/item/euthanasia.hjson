@@ -6,6 +6,8 @@ squareSprite: false
 category: turret
 researchCostMultiplier: 2
 shootSound: artillery
+targetBlocks: true
+targetHealing: true
 consumes: {
   liquid: nitrogen/0.15
 }
@@ -32,6 +34,7 @@ shoot: {
 ammoTypes: {
   tungsten: {
     type: BasicBulletType
+    healPercent: 6
     damage: 28
     width: 7
     height: 9
