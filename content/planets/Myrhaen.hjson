@@ -1,5 +1,5 @@
 localizedName: Myrhaen
-description: "A planet filled with life, if it gets in the way, you know what to do."
+description: "a life sutaining planet surprisingly close to its pale star, a new lifeform was seeded in it by your precursors in order to wage war, now, its your problem"
 alwaysUnlocked: true
 mesh: [
  {
@@ -132,6 +132,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-altar
-parent: sun
-solarSystem: sun
+parent: kaminos
+solarSystem: kaminos
 launchCandidates: []
