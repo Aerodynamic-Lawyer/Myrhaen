@@ -1,4 +1,4 @@
-name: kaminos
+name: Kaminos
 localizedName: Kaminos
 description:
 '''
@@ -6,7 +6,7 @@ a cold and small star, surprisingly, one of its planets was able to sustain life
 '''
 mesh: {
     type: SunMesh
-    planet: alveon
+    planet: kaminos
 	divisions: 5.5
 	octaves: 3
 	persistence: 0.8
