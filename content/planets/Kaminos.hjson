@@ -1,0 +1,46 @@
+name: kaminos
+localizedName: Kaminos
+description:
+'''
+a cold and small star, surprisingly, one of its planets was able to sustain life even before it was planted artificially
+'''
+mesh: {
+    type: SunMesh
+    planet: alveon
+	divisions: 5.5
+	octaves: 3
+	persistence: 0.8
+	scl: 1
+	pow: 1
+	mag: 0.5
+	colorScale: 1.15
+	    colors: [
+ffffff
+e8f5f9
+cfe7f0
+b5d3e4
+a6c4de
+98b2d5
+8ea3ce
+808fc5
+7378bc
+6866b0
+67569e
+5f428c
+553476
+4d2d6d
+452664
+    ]
+}
+lightColor: 5ac3ff
+bloom: true
+accessible: false
+parent: sun
+radius: 7.5
+
+drawOrbit: false
+orbitRadius: 12000
+tidalLock: true
+orbitSpacing: 23
+solarSystem: kaminos
+icon: commandRally
