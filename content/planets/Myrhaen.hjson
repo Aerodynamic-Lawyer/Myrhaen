@@ -106,7 +106,7 @@ cloudMesh: [
   }
 ]
 
-orbitRadius:26
+orbitRadius:85
 sectorSize: 0.7
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
