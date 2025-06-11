@@ -6,7 +6,7 @@ rotateSpeed : 6
 engineSize : 0
 hovering : true
 hitSize : 11
-health : 560
+health : 290
 speed : 1.2
 accel : 0.1
 armor : 5
@@ -42,7 +42,7 @@ weapons:[
     x: 0
     y: -2
     name: c1-gale-gun
-    reload: 28
+    reload: 14
     mirror: false
     alternate: false
     rotate: true
@@ -53,15 +53,14 @@ weapons:[
       shotDelay: 0
     }
     bullet : {
-        hitEffect: blastExplosion
         collidesTeam: false
         keepVelocity: false
         lifetime: 85
-        damage: 75
+        damage: 14
         height: 4
         speed: 1.25
         width: 6
-        type: ArtilleryBulletType
+        type: BasicBulletType
         frontColor: abbcc3
         backColor: 768090
         trailColor: abbcc3
