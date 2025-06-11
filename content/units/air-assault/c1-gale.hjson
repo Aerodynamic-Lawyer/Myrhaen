@@ -60,14 +60,18 @@ weapons:[
     ejectEffect: casing2
     shootSound: shoot-dull
     shoot: {
-      shots: 1
-      shotDelay: 0
-    }
+      type: ShootBarrel
+      shots: 2
+      shotDelay: 14
+      barrels: [
+        -1, 1, 0,
+        1, 1, 0
+      ]
     bullet : {
         collidesTeam: false
         keepVelocity: false
         lifetime: 42.5
-        damage: 14
+        damage: 12
         height: 4
         speed: 2.5
         width: 6
