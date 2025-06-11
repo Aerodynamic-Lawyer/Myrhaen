@@ -28,23 +28,23 @@ parts: [
     }
     {
         type: HoverPart
-        radius: 3
+        radius: 5
         stroke: 4
         phase: 90
         layerOffset: -0.001
         color: f0c2df
         y: -3
-        x: 2
+        x: 4
     }
     {
         type: HoverPart
-        radius: 3
+        radius: 5
         stroke: 4
         phase: 90
         layerOffset: -0.001
         color: f0c2df
         y: -3
-        x: -2
+        x: -4
     }
 ]
 
