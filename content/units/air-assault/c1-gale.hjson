@@ -24,7 +24,7 @@ parts: [
         phase: 90
         layerOffset: -0.001
         color: f0c2df
-        y: 2
+        y: 3
     }
     {
         type: HoverPart
@@ -33,14 +33,25 @@ parts: [
         phase: 90
         layerOffset: -0.001
         color: f0c2df
-        y: -2
+        y: -3
+        x: 2
+    }
+    {
+        type: HoverPart
+        radius: 3
+        stroke: 4
+        phase: 90
+        layerOffset: -0.001
+        color: f0c2df
+        y: -3
+        x: -2
     }
 ]
 
 weapons:[
  {
     x: 0
-    y: -2
+    y: -3
     name: c1-gale-gun
     reload: 14
     mirror: false
