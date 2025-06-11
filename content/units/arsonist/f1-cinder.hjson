@@ -1,0 +1,86 @@
+type: tank
+name: "Cinder"
+description: "Shortlived and mobile tank, fitted with a small yet powerful napalm bomb that sets the ground on fire when it explodes, however it lacks a way to deploy it's incediary payload in a way that lets it go outside of the blast radius or any traditional weapons, as such its only method of offence also kills it in the proceess of being used"
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 241e2f
+speed: 1.8
+rotateSpeed: 6
+health: 415
+armor: 0
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 55
+  }
+]
+weapons: [
+{ 
+name: "bomb"
+    
+    shootY: 0
+    shootX: 0
+    x: 0
+    y: 0
+    layerOffset: -0.01
+    mirror: false
+    rotate: false
+    shootCone: 180
+    rotationLimit: 0
+    recoil: 0
+    reload: 60
+    shootSound: explosion
+    shootOnDeath: true
+
+    bullet: {
+type: ExplosionBulletType
+splashDamage: 130
+splashDamageRadius: 28
+incendChance: 1
+incendSpread: 10
+incendAmount: 5
+
+shootEffect: {
+    type: MultiEffect
+    effects: [{
+        type: ParticleEffect 
+        colorFrom: c2ddf0
+        colorTo: 849cce
+        particles: 18
+        cone: 360
+        length: 0
+        baseLength: 22
+        lightScl: 3
+        lightOpacity: 2
+        spin: 0
+        line: true
+        sizeFrom: 2.5
+        sizeTo: 0 
+        offset: 1
+        }
+        {
+        type: WaveEffect
+        colorFrom: 7f878f
+        colorTo: 3c3c4f
+        sizeFrom: 0
+        sizeTo: 28
+        lightScl: 3
+        lightOpacity: 1
+        sides: 0
+        lifetime: 30
+        rotation: 0
+        strokeFrom: 5
+        strokeTo: 0
+        }
+]
+}
+}
+}
+]
+researchCostMultiplier: 1.5
