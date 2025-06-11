@@ -55,7 +55,6 @@ weapons:[
     name: c1-gale-gun
     reload: 14
     mirror: false
-    alternate: false
     rotate: true
     ejectEffect: casing2
     shootSound: shoot-dull
