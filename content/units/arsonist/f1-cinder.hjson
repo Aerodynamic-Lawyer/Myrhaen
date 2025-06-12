@@ -4,6 +4,7 @@ description: "Shortlived and mobile tank, fitted with a small yet powerful napal
 hitSize: 8
 treadPullOffset: 3
 omniMovement: false
+outlines: false
 faceTarget: false
 outlineColor: 241e2f
 speed: 1.8
