@@ -1,0 +1,94 @@
+name: Spiraecola
+description: "Spiraecolas are very interesting creatures, often nervous and docile they are very shy and not very social. However, they develop with an explosive payload in their stomach, this payload will eventually growbigger than it's ribcage often pushes its vital organs into unhealthy positions, when this happens spiraecolas will be in inmense, constant pain causing them to develop violent instincts, however, because of their admitedly harmless complexion the only way they can act on those insticts is by detonating the payload in their abdomen, they die in this process, ending their already short lifetime prematurely."
+type: legs
+outlineColor: 100b24
+speed: 0.8
+flying: false
+hitSize: 16
+itemCapacity: 0
+targetAir: true
+targetGround: true
+legLength: 6
+legCount: 5
+lockLegBase: true
+legExtension: -2.3
+stepShake: 1
+rotateSpeed: 2.2
+health: 435
+armor: -1
+deathExplosionEffect: none
+
+weapons: [
+{ 
+name: bomb
+    
+    shootY: 0
+    shootX: 0
+    x: 0
+    y: 0
+    layerOffset: -0.01
+    mirror: false
+    rotate: false
+    shootCone: 180
+    rotationLimit: 0
+    recoil: 0
+    reload: 60
+    shootSound: explosion
+    shootOnDeath: true
+    bullet: {
+     type: ExplosionBulletType
+     splashDamage: 193
+     splashDamageRadius: 25
+     fragMinLife: 1
+     fragBullets: 13
+     fragOnHit: false
+     fragBullet: {
+            type: BasicBulletType 
+            speed: 7
+            width: 5
+            height: 5
+            damage: 11
+            healPercent: 3
+            lifetime: 15
+            drag: 0
+            frontColor: 8ab0b9
+            trailWidth: 2.2
+            trailLength: 10
+            trailColor: 8ab0b9
+            backColor: 4b5e7c
+    }
+    }
+  
+    shootEffect: {
+        type: MultiEffect
+        effects: [{
+        lifetime: 40 
+        type: ParticleEffect
+        colorFrom: ffcd74 
+        colorTo: aaaaaa00 
+        particles: 12 
+        randLength: true 
+        sizeFrom: 10 
+        sizeTo: 0 
+        region: circle 
+        length: 400
+        interp: pow2Out
+        }
+        {
+        type: WaveEffect
+        colorFrom: 7f878f
+        colorTo: 3c3c4f
+        sizeFrom: 0
+        sizeTo: 28
+        lightScl: 3
+        lightOpacity: 1
+        sides: 0
+        lifetime: 30
+        rotation: 0
+        strokeFrom: 5
+        strokeTo: 0
+        }
+}
+]
+}
+]
