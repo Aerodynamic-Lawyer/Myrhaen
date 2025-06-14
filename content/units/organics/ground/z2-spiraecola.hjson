@@ -34,7 +34,6 @@ recoil: 0
 reload: 60
 shootSound: explosion
 shootOnDeath: true
-}
 bullet: {
  type: ExplosionBulletType
  splashDamage: 193
@@ -87,5 +86,6 @@ effects: [{
  strokeTo: 0
 }
 ]
+}
 }
 ]
