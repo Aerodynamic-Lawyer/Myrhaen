@@ -13,7 +13,7 @@ shadowElevation: 0.1
 legStraightness: 0.2
 legSpeed: 0.9
 legCount: 6
-legLength: 7
+legLength: 12
 lockLegBase: true
 legContinuousMove: true
 legExtension: 0.5
