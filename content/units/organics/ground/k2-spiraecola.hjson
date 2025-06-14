@@ -8,8 +8,9 @@ hitSize: 16
 itemCapacity: 0
 targetAir: true
 targetGround: true
-legLength: 7
-legCount: 7
+lockLegBase: true
+legLength: 12
+legCount: 8
 rotateSpeed: 2.2
 health: 435
 armor: -1
