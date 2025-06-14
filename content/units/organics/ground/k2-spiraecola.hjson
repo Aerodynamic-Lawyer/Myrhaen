@@ -8,12 +8,25 @@ hitSize: 16
 itemCapacity: 0
 targetAir: true
 targetGround: true
+hovering: true
+shadowElevation: 0.1
+legStraightness: 0.2
+legSpeed: 0.9
+legCount: 6
+legLength: 7
 lockLegBase: true
-legLength: 12
-legCount: 8
+legContinuousMove: true
+legExtension: 0.5
+legBaseOffset: 4
+legMaxLength: 1.5
+legLengthScl: 0.96
+legMinLength: 0.5
+legForwardScl: 0.95
 rotateSpeed: 2.2
 health: 435
 armor: -1
+mechStepShake: 0
+legMoveSpace: 1
 deathExplosionEffect: none
 
 weapons: [
