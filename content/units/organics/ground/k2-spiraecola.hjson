@@ -8,7 +8,7 @@ hitSize: 16
 itemCapacity: 0
 targetAir: true
 targetGround: true
-legLength: 6
+legLength: 7
 legCount: 5
 lockLegBase: true
 legExtension: -2.3
