@@ -35,6 +35,7 @@ name: bomb
     reload: 60
     shootSound: explosion
     shootOnDeath: true
+}
     bullet: {
      type: ExplosionBulletType
      splashDamage: 193
