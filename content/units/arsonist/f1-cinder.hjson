@@ -14,12 +14,12 @@ armor: 0
 itemCapacity: 0
 hitSize: 13
 treadRects: [
-  {
-    x: 0
-    y: 3.5
-    width: 6
-    height: 12
-  }
+    {
+        x: -13,
+        y: -19,
+        width: 26,
+        height: 39
+    }
 ]
 weapons: [
 { 
