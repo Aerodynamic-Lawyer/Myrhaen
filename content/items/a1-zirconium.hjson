@@ -1,0 +1,7 @@
+name: Zirconium
+description: "light, maleable and brittle metal, used for basic mechanisms and structures, not really useful beyond that."
+hardness: 2
+cost: 0.5
+alwaysUnlocked: true
+color: c2696d
+details: "abnormally abundant metal on myrhaen's surface, almost entirely absent bellow it."
