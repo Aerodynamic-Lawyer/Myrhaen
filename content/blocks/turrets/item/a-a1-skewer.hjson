@@ -30,7 +30,7 @@ ammoTypes: {
     type: BasicBulletType
     status: shocked
     statusDuration: 180
-    damage: 14
+    damage: 12
     width: 5
     height: 7
     speed: 5
@@ -46,7 +46,7 @@ ammoTypes: {
     fragBullet: {
       type: LightningBulletType
       damage: 2
-      lightningLength: 6
+      lightningLength: 2
       lightningLengthRand: 0.5
       lightningColor: b5e0e4
     }
