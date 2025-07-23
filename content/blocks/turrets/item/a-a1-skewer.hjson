@@ -8,7 +8,7 @@ researchCostMultiplier: 0.05
 shootSound: shoot-dull
 requirements: [
  a1-zirconium/40
- a2--lithium/32
+ a2-lithium/32
  silicon/16
 ]
 coolant: {
