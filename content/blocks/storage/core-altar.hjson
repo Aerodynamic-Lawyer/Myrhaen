@@ -2,7 +2,9 @@ type: CoreBlock
 name: Core: Altar
 description: "The most essential part of any base, if it happens to be destroyed, communication is lost, and so is the sector."
 requirements: [
- sand/1
+ a1-zirconium/1340
+ a2-lithium/780
+ silicon/960
 ]
 isFirstTier: true
 size: 4
