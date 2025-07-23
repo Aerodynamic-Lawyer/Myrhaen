@@ -1,6 +1,7 @@
 type: ItemTurret
 name: Skewer
 description: "Fires small needles of charged material at enemies, cheap, small, spammable and easy to set up. Recomended use is for temporary defense when resource economy is less than favorable. Not meant to take on larger foes"
+health: 340
 size: 1
 squareSprite: false
 category: turret
