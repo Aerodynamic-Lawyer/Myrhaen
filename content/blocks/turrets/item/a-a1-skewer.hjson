@@ -1,0 +1,59 @@
+type: ItemTurret
+name: Skewer
+description: "Fires small needles of charged material at enemies, cheap, small, spammable and easy to set up. Recomended use is for temporary defense when resource economy is less than favorable. Not meant to take on larger foes"
+size: 1
+squareSprite: false
+category: turret
+researchCostMultiplier: 0.05
+shootSound: shoot-dull
+requirements: [
+ a1-zirconium/40
+ a2--lithium/32
+ silicon/16
+]
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 47485e
+targetAir: true
+targetGround: true
+reload: 30
+range: 100
+velocityRnd: 0.12
+inaccuracy: 1
+
+ammoTypes: {
+  a2-lithium: {
+    type: BasicBulletType
+    damage: 18
+    width: 5
+    height: 7
+    speed: 5
+    lifetime: 20
+    knockback: 0
+    pierce: false
+    pierceCap: 1
+    frontColor: ffffff
+    backColor: c9dfe1
+    trailColor: ffffff
+    trailWidth: 2
+    trailLength: 4
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: -
+  parts: [
+    {
+      type: RegionPart
+      suffix: -tip
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1.5
+      moveX: 0
+    }
+  ]
+}
