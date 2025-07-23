@@ -44,6 +44,24 @@ ammoTypes: {
     trailWidth: 2
     trailLength: 4
   }
+ surge-alloy: {
+    type: BasicBulletType
+    status: shocked
+    statusDuration: 180
+    damage: 155
+    width: 5
+    height: 7
+    speed: 5
+    lifetime: 20
+    knockback: 0
+    pierce: true
+    pierceCap: 3
+    frontColor: fcf387
+    backColor: e4c36e
+    trailColor: fcf387
+    trailWidth: 2
+    trailLength: 6
+  }
 }
 drawer: {
   type: DrawTurret
