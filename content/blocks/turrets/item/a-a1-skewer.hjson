@@ -27,7 +27,9 @@ inaccuracy: 1
 ammoTypes: {
   a2-lithium: {
     type: BasicBulletType
-    damage: 18
+    status: shocked
+    statusDuration: 180
+    damage: 14
     width: 5
     height: 7
     speed: 5
@@ -40,11 +42,18 @@ ammoTypes: {
     trailColor: ffffff
     trailWidth: 2
     trailLength: 4
+    fragBullet: {
+    type: LightningBulletType
+    damage: 2
+    lightningLength: 3
+    lightningLengthRand: 0.5
+    lightningColor: b5e0e4
+    }
   }
 }
 drawer: {
   type: DrawTurret
-  basePrefix: -
+  basePrefix: skewer-
   parts: [
     {
       type: RegionPart
