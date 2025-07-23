@@ -43,13 +43,6 @@ ammoTypes: {
     trailColor: ffffff
     trailWidth: 2
     trailLength: 4
-    fragBullet: {
-      type: LightningBulletType
-      damage: 2
-      lightningLength: 2
-      lightningLengthRand: 0.5
-      lightningColor: b5e0e4
-    }
   }
 }
 drawer: {
