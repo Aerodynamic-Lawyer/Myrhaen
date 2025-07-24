@@ -1,5 +1,5 @@
 type: Wall
-name: Zirconium wall
+name: Small zirconium wall
 description: A smaller wall, defends allied buildings from damage and blocks possible pathways, used to fill gaps between bigger walls
 size: 1
 health: 640
