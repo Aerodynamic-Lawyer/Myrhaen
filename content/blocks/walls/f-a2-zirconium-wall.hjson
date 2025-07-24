@@ -1,5 +1,5 @@
 type: Wall
-name: Large zirconium wall
+name: Zirconium wall
 description: A wall of lage size, defends allied buildings from damage and blocks possible pathways.
 size: 2
 health: 2560
