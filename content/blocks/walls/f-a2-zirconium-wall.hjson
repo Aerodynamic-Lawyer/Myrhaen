@@ -1,6 +1,6 @@
 type: Wall
 name: Zirconium wall
-description: A wall of lage size, defends allied buildings from damage and blocks possible pathways.
+description: A standard size defensive wall, defends allied buildings from damage and blocks possible pathways.
 size: 2
 health: 2560
 armor: 6
