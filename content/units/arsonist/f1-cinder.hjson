@@ -1,7 +1,7 @@
 type: tank
 name: "Cinder"
 description: "Shortlived and mobile tank, fitted with a small yet powerful napalm bomb that sets the ground on fire when it explodes, however it lacks a way to deploy it's incediary payload in a way that lets it go outside of the blast radius or any traditional weapons, as such its only method of offence also kills it in the proceess of being used"
-hitSize: 8
+hitSize: 12
 treadPullOffset: 3
 omniMovement: false
 outlines: false
@@ -15,10 +15,10 @@ itemCapacity: 0
 hitSize: 13
 treadRects: [
     {
-        x: -13,
-        y: -19,
-        width: 26,
-        height: 39
+        x: -12,
+        y: -21,
+        width: 24,
+        height: 42
     }
 ]
 weapons: [
