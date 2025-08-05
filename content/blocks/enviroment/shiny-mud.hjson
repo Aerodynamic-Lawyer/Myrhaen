@@ -1,0 +1,11 @@
+type: Floor
+name: Shiny mud
+speedMultiplier: 0.3
+variants: 4
+drownTime: 95
+liquidDrop: water
+liquidMultiplier: 0.285
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
