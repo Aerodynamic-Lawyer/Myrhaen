@@ -1,6 +1,7 @@
 type: Floor
 itemDrop: sand
 variants: 3
+blendGroup: brown-sand
 attributes: {
   oil: 0.2
 }
