@@ -1,0 +1,4 @@
+type: Floor
+name: Brown sand
+itemDrop: sand
+variants: 3
