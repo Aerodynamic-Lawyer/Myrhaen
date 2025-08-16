@@ -3,7 +3,7 @@ category: distribution
 alwaysUnlocked: true
 research: core-altar
 researchCost: [
-  item-zirconium/8
+  a1-zirconium/8
 ]
 speed: 8
 health: 65
