@@ -1,0 +1,12 @@
+type: Duct
+category: distribution
+alwaysUnlocked: true
+research: core-altar
+researchCost: [
+  item-zirconium/8
+]
+speed: 8
+health: 65
+requirements: [
+  a1-zirconium/2
+]
