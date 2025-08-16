@@ -1,0 +1,13 @@
+type: DuctRouter
+regionRotated1: 1
+size: 1
+health: 65
+requirements: [
+  a1-zirconium/12
+]
+category: distribution
+squareSprite: false
+research: item-railwaay
+researchCost: [
+  a1-zirconium/16
+]
