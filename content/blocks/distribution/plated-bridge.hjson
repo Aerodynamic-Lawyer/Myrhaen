@@ -1,0 +1,16 @@
+type: DuctBridge
+size: 1
+health: 65
+speed: 4
+range: 2
+requirements: [
+ a1-zirconium/15
+ a2-lithium/10
+]
+category: distribution
+squareSprite: false
+research: plated-router
+researchCost: [
+  a1-zirconium/35
+  a2-lithium/20
+]
